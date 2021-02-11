@@ -18,8 +18,8 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {},
-  "name": "jjy-npm-template",
-  "description": "The various npm packages used by developer jjy (jjayeon).",
+  "name": "icy-puzzles",
+  "description": "A puzzle website.",
   "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
@@ -29,12 +29,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jjayeon/draw-with-me-solo.git"
+    "url": "git+https://github.com/jjayeon/icy-puzzles.git"
   },
   "author": "jjayeon",
   "license": "Unlicense",
   "bugs": {
-    "url": "https://github.com/jjayeon/draw-with-me-solo/issues"
+    "url": "https://github.com/jjayeon/icy-puzzles/issues"
   },
-  "homepage": "https://github.com/jjayeon/draw-with-me-solo#readme"
+  "homepage": "https://github.com/jjayeon/icy-puzzles#readme"
 }
