@@ -3,11 +3,11 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 import "./App.css";
-import TestGame from "./test-game/TestGame.js";
+import UncrossTheLines from "./uncross-the-lines/UncrossTheLines.js";
 
 function App() {
   const games = {
-    "test game 1": TestGame(),
+    "Uncross the Lines": UncrossTheLines(),
     "test game 2": <p>i like</p>,
   };
 
