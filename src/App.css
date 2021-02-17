@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+body {
+  background-color: #aff;
+  font-family: "Varela Round", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.Header,
+.Header:visited,
+.Header:active {
+  margin-bottom: 50px;
+}
+
+.Header:hover {
+  color: #099;
+}
+
+.Card {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.Card:hover {
+  background-color: #0ff;
+}
+
+.CardText {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}

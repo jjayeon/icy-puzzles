@@ -18,6 +18,11 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: "babel-loader",
+        options: { presets: ["@babel/env"] },
+      },
+      {
+        test: /\.css$/,
+        use: ["style-loader", "css-loader"],
       },
     ],
   },
@@ -30,9 +35,11 @@ module.exports = {
   ],
   devServer: {
     contentBase: "./dist",
+    historyApiFallback: true,
   },
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    publicPath: "/",
   },
 };

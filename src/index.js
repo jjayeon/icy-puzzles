@@ -1,3 +1,8 @@
-var a = 0;
+import React from "react";
+import ReactDOM from "react-dom";
 
-console.log(a);
+import App from "./App.js";
+
+const app = document.getElementById("root");
+
+ReactDOM.render(<App />, app);
